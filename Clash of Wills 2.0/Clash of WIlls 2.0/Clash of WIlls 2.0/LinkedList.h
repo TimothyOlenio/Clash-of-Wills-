@@ -7,16 +7,52 @@
 
 using namespace std;
 
+template<typename T>
+
 class LinkedList
 {
 private:
-	struct node
+	class Node 
 	{
-		
+		public:
+			T mData;
+			Node* mNext;
 	};
 
-	node* head, * tail;
 public:
+	class Iterator
+	{
+	private:
+		Node* mNode;
+	public:
+		//Sets mNode to the passed in node
+		void operator = (Node* node)
+		{
+			mNode = node;
+		}
+		//Increment mNode at the end of the line
+		void operator++(int)
+		{
+			mNode = mNode->mNext;
+			_ASSERT_EXPR(mNode != nullptr, L"cannot seek iterator after end");
+		}
+		//Increment mNode when this function is read
+		void operator++()
+		{
+			mNode = mNode->mNext;
+			_ASSERT_EXPR(mNode != nullptr, L"cannot seek iterator after end");
+		}
+		//Loop through the Linked List
+		void operator+=(unsigned rhs)
+		{
+			for (unsigned i = 0; i < rhs; i++)
+			{
+				mNode = mNode->mNext;
+				_ASSERT_EXPR(mNode != nullptr, L"cannot seek iterator after end");
+
+			}
+		}
+	};
 	void linked_list();
 
 
