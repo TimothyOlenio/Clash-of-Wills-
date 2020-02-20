@@ -6,6 +6,8 @@ void Player::add_node(int n)
     tmp->item1 = n;
     tmp->next = NULL;
 
+  
+
     if (head == NULL)
     {
         head = tmp;
@@ -16,4 +18,10 @@ void Player::add_node(int n)
         tail->next = tmp;
         tail = tail->next;
     }
+}
+
+Player::linked_list::linked_list()
+{
+    head = NULL;
+    tail = NULL;
 }

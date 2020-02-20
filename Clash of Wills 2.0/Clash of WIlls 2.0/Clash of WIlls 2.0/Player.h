@@ -2,6 +2,7 @@
 #define PLAYER_H
 #include <iostream>
 #include <map>
+#include "LinkedList.h"
 #include "Inventory.h"
 #include "CharacterSheet.h"
 
@@ -17,25 +18,9 @@ struct Player
 	Inventory* playerInventory;
 	CharacterSheet* character;
 
-	struct node
-	{
-		string item1;
-		struct node* next;
-	};
+	
 
-	class linked_list
-	{
-	private:
-		node* head, * tail;
-	public:
-		linked_list()
-		{
-			head = NULL;
-			tail = NULL;
-		}
-	};
-
-	void add_node(int n);
+	
 };
 #endif
 
