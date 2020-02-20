@@ -52,8 +52,41 @@ public:
 
 			}
 		}
+		//Check if passed in node is the current mNode in the list
+		bool operator==(Node* node) const
+		{
+			return mNode == node;
+		}
+		//Check if passed in node is NOT the current mNode in the List
+		bool operator!=(Node* node) const
+		{
+			return mNode == node;
+		}
+		//Dereference the operator (to display the data and not the address)
+		T& operator*() const
+		{
+			return mNode->mData;
+		}
 	};
-	void linked_list();
+private:
+	Node* mRoot;
+	Node* mTail;
+	unsigned mSize;
+
+public:
+	//Add new item to the end of the list
+	void push_back(T data)
+	{
+		Node* node = new Node();
+		node->mData = data;
+		node->mNext = nullptr;
+
+		if (mTail)
+		{
+			mTail->mNext = node;
+			mTail = node;
+		}
+	}
 
 
 	void add_node(int n);
