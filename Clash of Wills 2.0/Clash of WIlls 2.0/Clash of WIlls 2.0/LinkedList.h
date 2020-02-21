@@ -86,8 +86,136 @@ public:
 			mTail->mNext = node;
 			mTail = node;
 		}
+		else
+		{
+			mRoot = node;
+			mTail = node;
+		}
+		mSize += 1;
 	}
 
+	//Remove the last item in the list
+	void pop_back()
+	{
+		if (mTail == nullptr)
+		{
+			//empty list, do nothing
+		}
+
+		if (mRoot->mNext == nullptr)
+		{
+			// one element, remove it
+			delete mRoot;
+			mRoot = nullptr;
+			mTail = nullptr;
+		}
+		else
+		{
+			// n elements, remove last
+			Node* prev = mRoot;
+			while (prev->mNext != mTail)
+			{
+				//look for second-last node
+				prev = prev->mNext;
+			}
+			prev->mNext = nullptr;
+			delete mTail;
+			mTail = prev;
+		}
+		mSize += 1;
+	}
+
+	// Insert item somewhere in the middle of the list
+	void insert(const Iterator& it, T data)
+	{
+		//instert after
+		Node* node = new Node();
+		node->mData = data;
+		node->mNext = nullptr;
+
+		Node* temp = mRoot;
+		while (it != temp && temp != nullptr)
+		{
+			temp = temp->mNext;
+		}
+
+		if (temp)
+		{
+			node->mNext = temp->mNext;
+			temp->mNext = node;
+		}
+		else
+		{
+			// TODO: throw an exception for invalild iterator
+			return;
+		}
+	}
+
+	//Remove an item from somewhere in the middle of the list
+	void remove(const Iterator& it)
+	{
+		Node* prev = mRoot;
+
+		if (prev == nullptr)
+		{
+			//TODO: throw an exception for invalid iterator
+			return;
+		}
+
+		while (it != prev->mNext && prev->mNext != nullptr)
+		{
+			prev = prev->mNext;
+		}
+
+		if (prev->mNext)
+		{
+			Node* temp = prev->mNext;
+			prev->mNext = temp->mNext;
+			delete temp;
+		}
+		else
+		{
+			//TODO: throw an exception for invalid iterator
+			return;
+		}
+		mSize -= 1;
+	}
+
+	//Get the first element in the list
+	Node* begin() const
+	{
+		return mRoot;
+	}
+
+	//Get the last element in the list
+	Node* end() const
+	{
+		return nullptr;
+	}
+
+	//Get the entire list
+	unsigned size() const
+	{
+		return mSize;
+	}
+
+	//Construct the list
+	LinkedList() : mRoot(nullptr), mTail(nullptr), mSize(0) {}
+	~LinkList()
+	{
+		if (mRoot)
+		{
+			Node* next = mRoot->mNext;
+
+			while (next)
+			{
+				Node* temp = next;
+				next = next->mNext;
+				delete temp;
+			}
+			delete mRoot;
+		}
+	}
 
 	void add_node(int n);
 };
