@@ -9,7 +9,7 @@ using namespace std;
 
 template<typename T>
 
-class LinkedList
+class LinkedList : public
 {
 private:
 	class Node 
@@ -199,7 +199,6 @@ public:
 		return mSize;
 	}
 
-	//Construct the list
 	LinkedList() : mRoot(nullptr), mTail(nullptr), mSize(0) {}
 	~LinkList()
 	{

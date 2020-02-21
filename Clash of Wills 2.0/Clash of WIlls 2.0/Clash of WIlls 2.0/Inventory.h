@@ -2,7 +2,7 @@
 #define INVENTORY_H
 #pragma once
 
-class Inventory : public 
+class Inventory //: public 
 {
 
 };

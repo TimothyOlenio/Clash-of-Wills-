@@ -140,12 +140,12 @@
   <ItemGroup>
     <ClInclude Include="CharacterSheet.h" />
     <ClInclude Include="Inventory.h" />
+    <ClInclude Include="Items.h" />
     <ClInclude Include="LinkedList.h" />
     <ClInclude Include="Node.h" />
     <ClInclude Include="Player.h" />
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="LinkedList.cpp" />
     <ClCompile Include="Node.cpp" />
     <ClCompile Include="Player.cpp" />
   </ItemGroup>
