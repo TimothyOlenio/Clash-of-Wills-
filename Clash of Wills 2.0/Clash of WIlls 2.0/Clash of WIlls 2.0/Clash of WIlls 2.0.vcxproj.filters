@@ -13,12 +13,27 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="Header Files\Inventory">
+      <UniqueIdentifier>{159e2fb8-aeb4-45f3-81fa-50d3452c9a92}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Inventory\ItemTypes">
+      <UniqueIdentifier>{ae78570a-be3a-491f-9fb5-3faf456042d4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Inventory\ItemTypes\Weapons">
+      <UniqueIdentifier>{dab42936-f865-471a-a1aa-926fb5a9259f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Inventory">
+      <UniqueIdentifier>{5cd2de1b-9fb1-4e8a-90ea-ee50949470af}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Inventory\ItemTypes">
+      <UniqueIdentifier>{f9100ef4-aef2-415a-8832-a738033072f1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Inventory\ItemTypes\Weapons">
+      <UniqueIdentifier>{7dca5f83-e252-4568-a7db-c01b41cd0658}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Player.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="Inventory.h">
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="CharacterSheet.h">
@@ -31,7 +46,22 @@
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="Items.h">
-      <Filter>Header Files</Filter>
+      <Filter>Header Files\Inventory</Filter>
+    </ClInclude>
+    <ClInclude Include="Inventory.h">
+      <Filter>Header Files\Inventory</Filter>
+    </ClInclude>
+    <ClInclude Include="ItemDagger.h">
+      <Filter>Header Files\Inventory\ItemTypes\Weapons</Filter>
+    </ClInclude>
+    <ClInclude Include="ItemTypeWeapon.h">
+      <Filter>Header Files\Inventory\ItemTypes</Filter>
+    </ClInclude>
+    <ClInclude Include="ItemTypeArtifact.h">
+      <Filter>Header Files\Inventory\ItemTypes</Filter>
+    </ClInclude>
+    <ClInclude Include="ItemTypeVehicle.h">
+      <Filter>Header Files\Inventory\ItemTypes</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
@@ -40,6 +70,21 @@
     </ClCompile>
     <ClCompile Include="Node.cpp">
       <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ItemDagger.cpp">
+      <Filter>Source Files\Inventory\ItemTypes\Weapons</Filter>
+    </ClCompile>
+    <ClCompile Include="Items.cpp">
+      <Filter>Source Files\Inventory</Filter>
+    </ClCompile>
+    <ClCompile Include="ItemTypeArtifact.cpp">
+      <Filter>Source Files\Inventory\ItemTypes</Filter>
+    </ClCompile>
+    <ClCompile Include="ItemTypeVehicle.cpp">
+      <Filter>Source Files\Inventory\ItemTypes</Filter>
+    </ClCompile>
+    <ClCompile Include="ItemTypeWeapon.cpp">
+      <Filter>Source Files\Inventory\ItemTypes</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>

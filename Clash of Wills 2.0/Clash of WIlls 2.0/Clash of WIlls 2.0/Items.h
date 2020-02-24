@@ -1,17 +1,20 @@
-#ifndef __Items_H
-#define ITEMS_H
+#ifndef __ITEM_H
+#define __ITEM_H
 #include <iostream>
 #include <string>
 
 using namespace std;
 
-class Items : public
+class Item 
 {
-private:
+public:
 	string name;
 	string type;
 	void use();
 
+	Item();
+	~Item();
 
-}
+
+};
 #endif // !__Items_H

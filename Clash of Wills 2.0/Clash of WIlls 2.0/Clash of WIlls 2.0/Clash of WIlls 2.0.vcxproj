@@ -140,12 +140,21 @@
   <ItemGroup>
     <ClInclude Include="CharacterSheet.h" />
     <ClInclude Include="Inventory.h" />
+    <ClInclude Include="ItemDagger.h" />
     <ClInclude Include="Items.h" />
+    <ClInclude Include="ItemTypeArtifact.h" />
+    <ClInclude Include="ItemTypeVehicle.h" />
+    <ClInclude Include="ItemTypeWeapon.h" />
     <ClInclude Include="LinkedList.h" />
     <ClInclude Include="Node.h" />
     <ClInclude Include="Player.h" />
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="ItemDagger.cpp" />
+    <ClCompile Include="Items.cpp" />
+    <ClCompile Include="ItemTypeArtifact.cpp" />
+    <ClCompile Include="ItemTypeVehicle.cpp" />
+    <ClCompile Include="ItemTypeWeapon.cpp" />
     <ClCompile Include="Node.cpp" />
     <ClCompile Include="Player.cpp" />
   </ItemGroup>
