@@ -5,7 +5,7 @@
 
 using namespace std;
 
-class ItemTypeWeapon : Item
+class ItemTypeWeapon : public Item
 {
 public:
 	ItemTypeWeapon();

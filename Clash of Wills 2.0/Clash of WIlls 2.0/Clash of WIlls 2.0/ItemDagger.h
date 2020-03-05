@@ -5,7 +5,7 @@
 
 using namespace std;
 
-class ItemDagger : Item
+class ItemDagger : public ItemTypeWeapon
 {
 public:
 	ItemDagger();
