@@ -154,6 +154,8 @@
     <ClInclude Include="Node.h" />
     <ClInclude Include="Player.h" />
     <ClInclude Include="Room.h" />
+    <ClInclude Include="RoomBedroomInn.h" />
+    <ClInclude Include="RoomManager.h" />
     <ClInclude Include="StateManager.h" />
     <ClInclude Include="VampireClanGangrel.h" />
     <ClInclude Include="VampireClanNosferatu.h" />
@@ -175,6 +177,8 @@
     <ClCompile Include="Node.cpp" />
     <ClCompile Include="Player.cpp" />
     <ClCompile Include="Room.cpp" />
+    <ClCompile Include="RoomBedroomInn.cpp" />
+    <ClCompile Include="RoomManager.cpp" />
     <ClCompile Include="StateManager.cpp" />
     <ClCompile Include="VampireClanGangrel.cpp" />
     <ClCompile Include="VampireClanNosferatu.cpp" />

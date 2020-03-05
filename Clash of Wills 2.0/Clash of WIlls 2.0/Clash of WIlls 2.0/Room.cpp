@@ -2,6 +2,7 @@
 
 Room::Room()
 {
+	name = "RoomName";
 }
 
 Room::~Room()

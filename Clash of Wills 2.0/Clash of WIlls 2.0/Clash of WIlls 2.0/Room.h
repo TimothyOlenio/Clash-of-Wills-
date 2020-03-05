@@ -10,7 +10,6 @@ class Room
 public:
 	string name;
 
-
 	Room();
 	~Room();
 
