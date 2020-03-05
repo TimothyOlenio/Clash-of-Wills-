@@ -6,21 +6,19 @@
 #include "Inventory.h"
 #include "CharacterSheet.h"
 
-#pragma once
-
 using namespace std;
 
-struct Player 
+class Player 
 {
 private:
 	Inventory* myInventory;
 
 
 public:
-
+	Player();
 	void AddToInventory(Item* data);
+	void DrawInventory();
 
-	
 };
 #endif
 

@@ -1,4 +1,6 @@
 #include "Inventory.h"
+#include "ItemSword.h"
+#include <iostream>
 
 void Inventory::AddItem(Item *data)
 {
@@ -7,17 +9,18 @@ void Inventory::AddItem(Item *data)
 
 void Inventory::LoopInventory()
 {
-    itr = PlayerItems.begin;
+    itr = PlayerItems.begin();
 
     for (itr; itr != PlayerItems.end(); itr++)
     {
         Item* itm = *itr;
+        std::cout << itm->name << std::endl;
     }
 }
 
 Inventory::Inventory()
 {
-	
+
 }
 
 Inventory::~Inventory()

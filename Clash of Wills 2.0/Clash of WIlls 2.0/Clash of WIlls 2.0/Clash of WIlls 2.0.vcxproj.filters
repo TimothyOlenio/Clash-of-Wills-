@@ -131,5 +131,8 @@
     <ClCompile Include="Inventory.cpp">
       <Filter>Source Files\Inventory\ItemTypes</Filter>
     </ClCompile>
+    <ClCompile Include="Main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

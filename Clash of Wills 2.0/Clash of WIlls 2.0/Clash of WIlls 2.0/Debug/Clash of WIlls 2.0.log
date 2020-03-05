@@ -1,6 +1,4 @@
-﻿  Player.cpp
-C:\Users\Wandering Wolf\Documents\GitHub\Clash-of-Wills-\Clash of Wills 2.0\Clash of WIlls 2.0\Clash of WIlls 2.0\LinkedList.h(13,1): error C2059: syntax error: '{'
-C:\Users\Wandering Wolf\Documents\GitHub\Clash-of-Wills-\Clash of Wills 2.0\Clash of WIlls 2.0\Clash of WIlls 2.0\LinkedList.h(220): message : see reference to class template instantiation 'LinkedList<T>' being compiled
-C:\Users\Wandering Wolf\Documents\GitHub\Clash-of-Wills-\Clash of Wills 2.0\Clash of WIlls 2.0\Clash of WIlls 2.0\LinkedList.h(203,1): error C2523: 'LinkedList<T>::~LinkList': destructor tag mismatch
-C:\Users\Wandering Wolf\Documents\GitHub\Clash-of-Wills-\Clash of Wills 2.0\Clash of WIlls 2.0\Clash of WIlls 2.0\Player.cpp(3,14): error C2039: 'add_node': is not a member of 'Player'
-C:\Users\Wandering Wolf\Documents\GitHub\Clash-of-Wills-\Clash of Wills 2.0\Clash of WIlls 2.0\Clash of WIlls 2.0\Player.h(13): message : see declaration of 'Player'
+﻿  Main.cpp
+  Player.cpp
+  Generating Code...
+  Clash of WIlls 2.0.vcxproj -> C:\Users\Wandering Wolf\Documents\GitHub\Clash-of-Wills-\Clash of Wills 2.0\Clash of WIlls 2.0\Debug\Clash of WIlls 2.0.exe

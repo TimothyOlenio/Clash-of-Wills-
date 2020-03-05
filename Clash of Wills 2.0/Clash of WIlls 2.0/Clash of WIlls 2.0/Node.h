@@ -5,13 +5,13 @@
 
 using namespace std;
 
-struct Node
-{
-public:
-
-
-	string item1;
-	struct node* next;
-};
+//struct Node
+//{
+//public:
+//
+//
+//	string item1;
+//	struct node* next;
+//};
 #endif
 

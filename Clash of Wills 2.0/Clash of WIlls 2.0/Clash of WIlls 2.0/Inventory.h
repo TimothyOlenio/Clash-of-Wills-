@@ -6,7 +6,6 @@
 class Inventory 
 {
 public:
-
 	LinkedList<Item*> PlayerItems;
 
 	LinkedList<Item*>::Iterator itr;
