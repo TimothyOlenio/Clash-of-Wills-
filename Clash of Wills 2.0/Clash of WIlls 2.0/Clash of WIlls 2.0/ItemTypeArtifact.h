@@ -5,7 +5,7 @@
 
 using namespace std;
 
-class ItemTypeArtifact : Item
+class ItemTypeArtifact : public Item
 {
 public:
 	ItemTypeArtifact();

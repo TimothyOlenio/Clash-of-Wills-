@@ -31,6 +31,12 @@
     <Filter Include="Source Files\Inventory\ItemTypes\Weapons">
       <UniqueIdentifier>{7dca5f83-e252-4568-a7db-c01b41cd0658}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Header Files\Inventory\ItemTypes\Artifacts">
+      <UniqueIdentifier>{b0a429a0-2eb7-4329-9471-e6d470c94820}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Inventory\ItemTypes\Artifacts">
+      <UniqueIdentifier>{0339ed00-48b2-4544-97e3-d40e6286547b}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Player.h">
@@ -57,14 +63,17 @@
     <ClInclude Include="ItemTypeWeapon.h">
       <Filter>Header Files\Inventory\ItemTypes</Filter>
     </ClInclude>
-    <ClInclude Include="ItemTypeArtifact.h">
-      <Filter>Header Files\Inventory\ItemTypes</Filter>
-    </ClInclude>
     <ClInclude Include="ItemTypeVehicle.h">
       <Filter>Header Files\Inventory\ItemTypes</Filter>
     </ClInclude>
     <ClInclude Include="ItemSword.h">
       <Filter>Header Files\Inventory\ItemTypes\Weapons</Filter>
+    </ClInclude>
+    <ClInclude Include="ItemWill.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ItemTypeArtifact.h">
+      <Filter>Header Files\Inventory\ItemTypes\Artifacts</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
@@ -80,9 +89,6 @@
     <ClCompile Include="Items.cpp">
       <Filter>Source Files\Inventory</Filter>
     </ClCompile>
-    <ClCompile Include="ItemTypeArtifact.cpp">
-      <Filter>Source Files\Inventory\ItemTypes</Filter>
-    </ClCompile>
     <ClCompile Include="ItemTypeVehicle.cpp">
       <Filter>Source Files\Inventory\ItemTypes</Filter>
     </ClCompile>
@@ -91,6 +97,12 @@
     </ClCompile>
     <ClCompile Include="ItemSword.cpp">
       <Filter>Source Files\Inventory\ItemTypes\Weapons</Filter>
+    </ClCompile>
+    <ClCompile Include="ItemTypeArtifact.cpp">
+      <Filter>Source Files\Inventory\ItemTypes</Filter>
+    </ClCompile>
+    <ClCompile Include="ItemWill.cpp">
+      <Filter>Source Files\Inventory\ItemTypes\Artifacts</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
