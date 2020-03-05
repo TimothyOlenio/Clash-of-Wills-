@@ -43,6 +43,18 @@
     <Filter Include="Source Files\Inventory\ItemTypes\Vehicles">
       <UniqueIdentifier>{d83e70c8-515f-4799-8186-aa38b2079891}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Header Files\Character">
+      <UniqueIdentifier>{475bae42-97e4-4d33-a032-393fdc82ce5f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Character">
+      <UniqueIdentifier>{82a8f574-f8a4-410f-b595-992f8a046709}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Character\VampireClans">
+      <UniqueIdentifier>{57853680-6329-4815-b953-cb00b9adb05f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Character\VampireClans">
+      <UniqueIdentifier>{d12739f3-2c3a-46da-9d66-152f17fb8683}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Player.h">
@@ -90,6 +102,15 @@
     <ClInclude Include="ItemDenari.h">
       <Filter>Header Files\Inventory\ItemTypes\Artifacts</Filter>
     </ClInclude>
+    <ClInclude Include="VampireClanNosferatu.h">
+      <Filter>Header Files\Character\VampireClans</Filter>
+    </ClInclude>
+    <ClInclude Include="VampireClanVentrue.h">
+      <Filter>Header Files\Character\VampireClans</Filter>
+    </ClInclude>
+    <ClInclude Include="VampireClanGangrel.h">
+      <Filter>Header Files\Character\VampireClans</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Player.cpp">
@@ -133,6 +154,15 @@
     </ClCompile>
     <ClCompile Include="Main.cpp">
       <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="VampireClanNosferatu.cpp">
+      <Filter>Source Files\Character\VampireClans</Filter>
+    </ClCompile>
+    <ClCompile Include="VampireClanVentrue.cpp">
+      <Filter>Source Files\Character\VampireClans</Filter>
+    </ClCompile>
+    <ClCompile Include="VampireClanGangrel.cpp">
+      <Filter>Source Files\Character\VampireClans</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
