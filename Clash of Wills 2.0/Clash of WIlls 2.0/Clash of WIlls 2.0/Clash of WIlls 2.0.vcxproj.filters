@@ -72,9 +72,6 @@
     <ClInclude Include="ItemSword.h">
       <Filter>Header Files\Inventory\ItemTypes\Weapons</Filter>
     </ClInclude>
-    <ClInclude Include="LinkedList.h">
-      <Filter>Source Files\Inventory</Filter>
-    </ClInclude>
     <ClInclude Include="ItemTypeArtifact.h">
       <Filter>Header Files\Inventory\ItemTypes</Filter>
     </ClInclude>
@@ -86,6 +83,12 @@
     </ClInclude>
     <ClInclude Include="ItemCarriage.h">
       <Filter>Header Files\Inventory\ItemTypes\Vehicles</Filter>
+    </ClInclude>
+    <ClInclude Include="LinkedList.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ItemDenari.h">
+      <Filter>Header Files\Inventory\ItemTypes\Artifacts</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
@@ -121,6 +124,9 @@
     </ClCompile>
     <ClCompile Include="ItemCarriage.cpp">
       <Filter>Source Files\Inventory\ItemTypes\Vehicles</Filter>
+    </ClCompile>
+    <ClCompile Include="ItemDenari.cpp">
+      <Filter>Source Files\Inventory\ItemTypes\Artifacts</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>

@@ -140,6 +140,7 @@
   <ItemGroup>
     <ClInclude Include="CharacterSheet.h" />
     <ClInclude Include="ItemCarriage.h" />
+    <ClInclude Include="ItemDenari.h" />
     <ClInclude Include="ItemHorse.h" />
     <ClInclude Include="Inventory.h" />
     <ClInclude Include="ItemDagger.h" />
@@ -155,6 +156,7 @@
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="ItemCarriage.cpp" />
+    <ClCompile Include="ItemDenari.cpp" />
     <ClCompile Include="ItemHorse.cpp" />
     <ClCompile Include="ItemDagger.cpp" />
     <ClCompile Include="Items.cpp" />
