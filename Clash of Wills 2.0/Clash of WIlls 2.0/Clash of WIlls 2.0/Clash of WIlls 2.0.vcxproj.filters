@@ -63,6 +63,9 @@
     <ClInclude Include="ItemTypeVehicle.h">
       <Filter>Header Files\Inventory\ItemTypes</Filter>
     </ClInclude>
+    <ClInclude Include="ItemSword.h">
+      <Filter>Header Files\Inventory\ItemTypes\Weapons</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Player.cpp">
@@ -85,6 +88,9 @@
     </ClCompile>
     <ClCompile Include="ItemTypeWeapon.cpp">
       <Filter>Source Files\Inventory\ItemTypes</Filter>
+    </ClCompile>
+    <ClCompile Include="ItemSword.cpp">
+      <Filter>Source Files\Inventory\ItemTypes\Weapons</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>

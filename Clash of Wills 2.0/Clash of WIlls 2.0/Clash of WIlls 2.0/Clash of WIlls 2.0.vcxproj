@@ -142,6 +142,7 @@
     <ClInclude Include="Inventory.h" />
     <ClInclude Include="ItemDagger.h" />
     <ClInclude Include="Items.h" />
+    <ClInclude Include="ItemSword.h" />
     <ClInclude Include="ItemTypeArtifact.h" />
     <ClInclude Include="ItemTypeVehicle.h" />
     <ClInclude Include="ItemTypeWeapon.h" />
@@ -152,6 +153,7 @@
   <ItemGroup>
     <ClCompile Include="ItemDagger.cpp" />
     <ClCompile Include="Items.cpp" />
+    <ClCompile Include="ItemSword.cpp" />
     <ClCompile Include="ItemTypeArtifact.cpp" />
     <ClCompile Include="ItemTypeVehicle.cpp" />
     <ClCompile Include="ItemTypeWeapon.cpp" />
