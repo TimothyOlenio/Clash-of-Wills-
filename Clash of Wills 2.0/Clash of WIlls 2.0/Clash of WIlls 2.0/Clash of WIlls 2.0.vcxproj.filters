@@ -49,11 +49,23 @@
     <Filter Include="Source Files\Character">
       <UniqueIdentifier>{82a8f574-f8a4-410f-b595-992f8a046709}</UniqueIdentifier>
     </Filter>
-    <Filter Include="Header Files\Character\VampireClans">
+    <Filter Include="Header Files\States">
+      <UniqueIdentifier>{ea8d54a9-015c-4e94-9c99-044199d29a7a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\States\VampireClans">
       <UniqueIdentifier>{57853680-6329-4815-b953-cb00b9adb05f}</UniqueIdentifier>
     </Filter>
-    <Filter Include="Source Files\Character\VampireClans">
+    <Filter Include="Source Files\States">
+      <UniqueIdentifier>{0cabeebe-ba84-40a1-8c87-22b30e424914}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\States\VampireClans">
       <UniqueIdentifier>{d12739f3-2c3a-46da-9d66-152f17fb8683}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Rooms">
+      <UniqueIdentifier>{a6d4a9ae-6551-4005-af2b-638941a3f6df}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Rooms">
+      <UniqueIdentifier>{fa3b8810-d84b-406a-9efe-1ddc0c3b5521}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
   <ItemGroup>
@@ -103,13 +115,19 @@
       <Filter>Header Files\Inventory\ItemTypes\Artifacts</Filter>
     </ClInclude>
     <ClInclude Include="VampireClanNosferatu.h">
-      <Filter>Header Files\Character\VampireClans</Filter>
+      <Filter>Header Files\States\VampireClans</Filter>
     </ClInclude>
     <ClInclude Include="VampireClanVentrue.h">
-      <Filter>Header Files\Character\VampireClans</Filter>
+      <Filter>Header Files\States\VampireClans</Filter>
     </ClInclude>
     <ClInclude Include="VampireClanGangrel.h">
-      <Filter>Header Files\Character\VampireClans</Filter>
+      <Filter>Header Files\States\VampireClans</Filter>
+    </ClInclude>
+    <ClInclude Include="StateManager.h">
+      <Filter>Header Files\States</Filter>
+    </ClInclude>
+    <ClInclude Include="Room.h">
+      <Filter>Header Files\Rooms</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
@@ -156,13 +174,19 @@
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="VampireClanNosferatu.cpp">
-      <Filter>Source Files\Character\VampireClans</Filter>
+      <Filter>Source Files\States\VampireClans</Filter>
     </ClCompile>
     <ClCompile Include="VampireClanVentrue.cpp">
-      <Filter>Source Files\Character\VampireClans</Filter>
+      <Filter>Source Files\States\VampireClans</Filter>
     </ClCompile>
     <ClCompile Include="VampireClanGangrel.cpp">
-      <Filter>Source Files\Character\VampireClans</Filter>
+      <Filter>Source Files\States\VampireClans</Filter>
+    </ClCompile>
+    <ClCompile Include="StateManager.cpp">
+      <Filter>Source Files\States</Filter>
+    </ClCompile>
+    <ClCompile Include="Room.cpp">
+      <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
