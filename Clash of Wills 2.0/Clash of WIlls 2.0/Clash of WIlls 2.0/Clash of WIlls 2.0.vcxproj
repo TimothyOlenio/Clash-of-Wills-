@@ -139,6 +139,7 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClInclude Include="CharacterSheet.h" />
+    <ClInclude Include="Horse.h" />
     <ClInclude Include="Inventory.h" />
     <ClInclude Include="ItemDagger.h" />
     <ClInclude Include="Items.h" />
@@ -152,6 +153,7 @@
     <ClInclude Include="Player.h" />
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="Horse.cpp" />
     <ClCompile Include="ItemDagger.cpp" />
     <ClCompile Include="Items.cpp" />
     <ClCompile Include="ItemSword.cpp" />

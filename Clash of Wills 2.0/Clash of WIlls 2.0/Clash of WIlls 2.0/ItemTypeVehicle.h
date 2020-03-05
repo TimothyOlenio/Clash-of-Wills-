@@ -5,7 +5,7 @@
 
 using namespace std;
 
-class ItemTypeVehicle : Item
+class ItemTypeVehicle : public Item
 {
 public:
 	ItemTypeVehicle();
