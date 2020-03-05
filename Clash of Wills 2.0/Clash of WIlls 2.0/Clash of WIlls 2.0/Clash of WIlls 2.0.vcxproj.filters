@@ -75,14 +75,17 @@
     <ClInclude Include="LinkedList.h">
       <Filter>Source Files\Inventory</Filter>
     </ClInclude>
-    <ClInclude Include="Horse.h">
-      <Filter>Header Files\Inventory\ItemTypes\Vehicles</Filter>
-    </ClInclude>
     <ClInclude Include="ItemTypeArtifact.h">
       <Filter>Header Files\Inventory\ItemTypes</Filter>
     </ClInclude>
     <ClInclude Include="ItemWill.h">
       <Filter>Header Files\Inventory\ItemTypes\Artifacts</Filter>
+    </ClInclude>
+    <ClInclude Include="ItemHorse.h">
+      <Filter>Header Files\Inventory\ItemTypes\Vehicles</Filter>
+    </ClInclude>
+    <ClInclude Include="ItemCarriage.h">
+      <Filter>Header Files\Inventory\ItemTypes\Vehicles</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
@@ -113,7 +116,10 @@
     <ClCompile Include="ItemWill.cpp">
       <Filter>Source Files\Inventory\ItemTypes\Artifacts</Filter>
     </ClCompile>
-    <ClCompile Include="Horse.cpp">
+    <ClCompile Include="ItemHorse.cpp">
+      <Filter>Source Files\Inventory\ItemTypes\Vehicles</Filter>
+    </ClCompile>
+    <ClCompile Include="ItemCarriage.cpp">
       <Filter>Source Files\Inventory\ItemTypes\Vehicles</Filter>
     </ClCompile>
   </ItemGroup>
