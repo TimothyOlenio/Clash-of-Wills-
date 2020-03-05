@@ -10,6 +10,7 @@ class Item
 public:
 	string name;
 	string type;
+	int sellValue;
 	void use();
 
 	Item();

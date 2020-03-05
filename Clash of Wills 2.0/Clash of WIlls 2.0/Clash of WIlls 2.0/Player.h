@@ -12,21 +12,15 @@ using namespace std;
 
 struct Player 
 {
-	//template* LinkedList::LinkedList() : mRoot(nullptr), mTail(nullptr), mSize(0) {}* linkedList;
+private:
+	Inventory* myInventory;
 
 
-	std::map<char, int> AvailableChoices;
-	Inventory* playerInventory;
-	CharacterSheet* character;
+public:
 
-	void LoopInventory();
-	void AddItemToInventory();
+	void AddToInventory(Item* data);
 
-	string Dagger()
-	{
-		string Dagger = "Dagger";
-		return Dagger;
-	}
+	
 };
 #endif
 

@@ -128,5 +128,8 @@
     <ClCompile Include="ItemDenari.cpp">
       <Filter>Source Files\Inventory\ItemTypes\Artifacts</Filter>
     </ClCompile>
+    <ClCompile Include="Inventory.cpp">
+      <Filter>Source Files\Inventory\ItemTypes</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

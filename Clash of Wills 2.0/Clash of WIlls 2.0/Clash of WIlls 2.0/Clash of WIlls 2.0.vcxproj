@@ -155,6 +155,7 @@
     <ClInclude Include="Player.h" />
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="Inventory.cpp" />
     <ClCompile Include="ItemCarriage.cpp" />
     <ClCompile Include="ItemDenari.cpp" />
     <ClCompile Include="ItemHorse.cpp" />

@@ -1,6 +1,6 @@
 #include "Player.h"
 
-void Player::add_node(int n)
+void Player::AddToInventory(Item* data)
 {
-    
+	myInventory->AddItem(data);
 }

@@ -1,10 +1,22 @@
 #ifndef __INVENTORY_H
 #define INVENTORY_H
-#pragma once
+#include "LinkedList.h"
+#include "Items.h"
 
-class Inventory //: public 
+class Inventory 
 {
+public:
 
+	LinkedList<Item*> PlayerItems;
+
+	LinkedList<Item*>::Iterator itr;
+
+	void AddItem(Item* data);
+	void LoopInventory();
+
+	Inventory();
+	~Inventory();
+	
 };
 #endif
 
