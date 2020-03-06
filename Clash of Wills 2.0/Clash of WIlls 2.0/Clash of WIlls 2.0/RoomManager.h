@@ -6,11 +6,11 @@
 class RoomManager
 {
 public:
-	LinkedList<RoomManager*> Rooms;
+	LinkedList<Room*> Rooms;
 
-	LinkedList<RoomManager*>::Iterator itr;
+	LinkedList<Room*>::Iterator itr;
 
-	void AddRoom(RoomManager* data);
+	void AddRoom(Room* data);
 	void LoopRooms();
 
 	RoomManager();

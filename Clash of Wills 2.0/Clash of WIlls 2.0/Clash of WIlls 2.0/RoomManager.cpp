@@ -1,9 +1,10 @@
 #include "RoomManager.h"
+#include "RoomBedroomInn.h"
+#include <iostream>
 
-void RoomManager::AddRoom(RoomManager* data)
+void RoomManager::AddRoom(Room *data)
 {
 	Rooms.push_back(data);
-
 }
 
 void RoomManager::LoopRooms()
@@ -12,7 +13,7 @@ void RoomManager::LoopRooms()
 
     for (itr; itr != Rooms.end(); itr++)
     {
-        RoomManager* itm = *itr;
+        Room* itm = *itr;
         //std::cout << itm->name << std::endl;
     }
 }
