@@ -19,6 +19,8 @@ public:
 
 	void DrawRoom();
 
+	bool CheckRoomCompletion();
+
 
 	RoomManager();
 	~RoomManager();

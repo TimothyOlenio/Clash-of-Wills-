@@ -9,6 +9,9 @@ class Room
 {
 public:
 	string name;
+	string description;
+	string allPlayerOptions[1];
+	string availablePlayerOptions[1];
 
 	bool RoomCompleted();
 

@@ -1,5 +1,13 @@
 #include "Game.h"
 
+void Game::changeRoom()
+{
+	if (theRoomManager->)
+	{
+
+	}
+}
+
 void Game::MoveToNextRoom(string roomName)
 {
 	theRoomManager->ProgressRoom(roomName);

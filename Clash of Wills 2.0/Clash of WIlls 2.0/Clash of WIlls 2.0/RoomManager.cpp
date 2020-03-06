@@ -24,8 +24,8 @@ void RoomManager::ProgressRoom(string roomName)
 
     for (itr; itr != Rooms.end(); itr++)
     {
-        Room* itm = *itr;
-        if (itm->name == roomName)
+        Room* room = *itr;
+        if (room->name == roomName)
         {
             return;
         }
@@ -35,6 +35,14 @@ void RoomManager::ProgressRoom(string roomName)
 void RoomManager::DrawRoom()
 {
     LoopRooms();
+}
+
+bool RoomManager::CheckRoomCompletion()
+{
+    Room* room = *itr;
+
+    return room->RoomCompleted();
+
 }
 
 RoomManager::RoomManager()

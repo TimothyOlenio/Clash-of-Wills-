@@ -1,8 +1,31 @@
 ﻿  Game.cpp
+C:\Users\Wandering Wolf\Documents\GitHub\Clash-of-Wills-\Clash of Wills 2.0\Clash of WIlls 2.0\Clash of WIlls 2.0\Room.h(14,34): warning C4200: nonstandard extension used: zero-sized array in struct/union
+C:\Users\Wandering Wolf\Documents\GitHub\Clash-of-Wills-\Clash of Wills 2.0\Clash of WIlls 2.0\Clash of WIlls 2.0\Room.h(14,34): message : This member will be ignored by a defaulted constructor or copy/move assignment operator
+C:\Users\Wandering Wolf\Documents\GitHub\Clash-of-Wills-\Clash of Wills 2.0\Clash of WIlls 2.0\Clash of WIlls 2.0\Game.cpp(5,22): error C2059: syntax error: ')'
+C:\Users\Wandering Wolf\Documents\GitHub\Clash-of-Wills-\Clash of Wills 2.0\Clash of WIlls 2.0\Clash of WIlls 2.0\Game.cpp(6,2): error C2143: syntax error: missing ';' before '{'
   Main.cpp
+C:\Users\Wandering Wolf\Documents\GitHub\Clash-of-Wills-\Clash of Wills 2.0\Clash of WIlls 2.0\Clash of WIlls 2.0\Room.h(14,34): warning C4200: nonstandard extension used: zero-sized array in struct/union
+C:\Users\Wandering Wolf\Documents\GitHub\Clash-of-Wills-\Clash of Wills 2.0\Clash of WIlls 2.0\Clash of WIlls 2.0\Room.h(14,34): message : This member will be ignored by a defaulted constructor or copy/move assignment operator
+C:\Users\Wandering Wolf\Documents\GitHub\Clash-of-Wills-\Clash of Wills 2.0\Clash of WIlls 2.0\Clash of WIlls 2.0\RoomBedroomInn.h(9,1): error C2503: 'Room': base classes cannot contain zero-sized arrays
+C:\Users\Wandering Wolf\Documents\GitHub\Clash-of-Wills-\Clash of Wills 2.0\Clash of WIlls 2.0\Clash of WIlls 2.0\Main.cpp(16,35): error C2440: 'initializing': cannot convert from 'RoomBedroomInn *' to 'Room *'
+C:\Users\Wandering Wolf\Documents\GitHub\Clash-of-Wills-\Clash of Wills 2.0\Clash of WIlls 2.0\Clash of WIlls 2.0\Main.cpp(16,13): message : Types pointed to are unrelated; conversion requires reinterpret_cast, C-style cast or function-style cast
   Room.cpp
+C:\Users\Wandering Wolf\Documents\GitHub\Clash-of-Wills-\Clash of Wills 2.0\Clash of WIlls 2.0\Clash of WIlls 2.0\Room.h(14,34): warning C4200: nonstandard extension used: zero-sized array in struct/union
+C:\Users\Wandering Wolf\Documents\GitHub\Clash-of-Wills-\Clash of Wills 2.0\Clash of WIlls 2.0\Clash of WIlls 2.0\Room.h(14,34): message : This member will be ignored by a defaulted constructor or copy/move assignment operator
+C:\Users\Wandering Wolf\Documents\GitHub\Clash-of-Wills-\Clash of Wills 2.0\Clash of WIlls 2.0\Clash of WIlls 2.0\Room.cpp(12,2): error C2065: 'allPlayerOptions': undeclared identifier
+C:\Users\Wandering Wolf\Documents\GitHub\Clash-of-Wills-\Clash of Wills 2.0\Clash of WIlls 2.0\Clash of WIlls 2.0\Room.cpp(14,1): error C2143: syntax error: missing ';' before '}'
   RoomBedroomInn.cpp
+C:\Users\Wandering Wolf\Documents\GitHub\Clash-of-Wills-\Clash of Wills 2.0\Clash of WIlls 2.0\Clash of WIlls 2.0\Room.h(14,34): warning C4200: nonstandard extension used: zero-sized array in struct/union
+C:\Users\Wandering Wolf\Documents\GitHub\Clash-of-Wills-\Clash of Wills 2.0\Clash of WIlls 2.0\Clash of WIlls 2.0\Room.h(14,34): message : This member will be ignored by a defaulted constructor or copy/move assignment operator
+C:\Users\Wandering Wolf\Documents\GitHub\Clash-of-Wills-\Clash of Wills 2.0\Clash of WIlls 2.0\Clash of WIlls 2.0\RoomBedroomInn.h(9,1): error C2503: 'Room': base classes cannot contain zero-sized arrays
+C:\Users\Wandering Wolf\Documents\GitHub\Clash-of-Wills-\Clash of Wills 2.0\Clash of WIlls 2.0\Clash of WIlls 2.0\RoomBedroomInn.cpp(5,2): error C2065: 'name': undeclared identifier
   RoomManager.cpp
+C:\Users\Wandering Wolf\Documents\GitHub\Clash-of-Wills-\Clash of Wills 2.0\Clash of WIlls 2.0\Clash of WIlls 2.0\Room.h(14,34): warning C4200: nonstandard extension used: zero-sized array in struct/union
+C:\Users\Wandering Wolf\Documents\GitHub\Clash-of-Wills-\Clash of Wills 2.0\Clash of WIlls 2.0\Clash of WIlls 2.0\Room.h(14,34): message : This member will be ignored by a defaulted constructor or copy/move assignment operator
+C:\Users\Wandering Wolf\Documents\GitHub\Clash-of-Wills-\Clash of Wills 2.0\Clash of WIlls 2.0\Clash of WIlls 2.0\RoomBedroomInn.h(9,1): error C2503: 'Room': base classes cannot contain zero-sized arrays
   RoomTapRoomInn.cpp
+C:\Users\Wandering Wolf\Documents\GitHub\Clash-of-Wills-\Clash of Wills 2.0\Clash of WIlls 2.0\Clash of WIlls 2.0\Room.h(14,34): warning C4200: nonstandard extension used: zero-sized array in struct/union
+C:\Users\Wandering Wolf\Documents\GitHub\Clash-of-Wills-\Clash of Wills 2.0\Clash of WIlls 2.0\Clash of WIlls 2.0\Room.h(14,34): message : This member will be ignored by a defaulted constructor or copy/move assignment operator
+C:\Users\Wandering Wolf\Documents\GitHub\Clash-of-Wills-\Clash of Wills 2.0\Clash of WIlls 2.0\Clash of WIlls 2.0\RoomTapRoomInn.h(9,1): error C2503: 'Room': base classes cannot contain zero-sized arrays
+C:\Users\Wandering Wolf\Documents\GitHub\Clash-of-Wills-\Clash of Wills 2.0\Clash of WIlls 2.0\Clash of WIlls 2.0\RoomTapRoomInn.cpp(5,2): error C2065: 'name': undeclared identifier
   Generating Code...
-  Clash of WIlls 2.0.vcxproj -> C:\Users\Wandering Wolf\Documents\GitHub\Clash-of-Wills-\Clash of Wills 2.0\Clash of WIlls 2.0\Debug\Clash of WIlls 2.0.exe

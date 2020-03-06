@@ -9,6 +9,17 @@ class Game
 private: 
 	RoomManager* theRoomManager;
 public:
+	void changeRoom();
+
 	void MoveToNextRoom(string roomName);
+
+	string PrintDescription();
+	string PlayerOptions();
+
+	void TakePlayerOption();
+
+	void CheckForSuccess();
+
+	void GameLoop();
 };
 #endif
