@@ -1,26 +1,19 @@
 #include "Game.h"
 
-void Game::changeRoom()
-{
-	if (theRoomManager->)
-	{
-
-	}
-}
 
 void Game::MoveToNextRoom(string roomName)
 {
 	theRoomManager->ProgressRoom(roomName);
 }
 
-string Game::PrintDescription()
+void Game::PrintDescription()
 {
 	Room* room = theRoomManager->CurrentRoom();
-	return room->description;
+	room->PrintDescription();
 }
 
-string Game::PlayerOptions()
+void Game::PlayerOptions()
 {
 	Room* room = theRoomManager->CurrentRoom();
-	return room->availablePlayerOptions;
+	room->PrintAvailableOptions(Item* inventoryItr);
 }

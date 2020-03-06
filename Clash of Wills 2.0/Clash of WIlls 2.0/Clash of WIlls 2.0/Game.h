@@ -3,18 +3,17 @@
 #include "LinkedList.h"
 #include "RoomManager.h"
 #include "Room.h"
+#include "Items.h"
 
 class Game
 {
 private: 
 	RoomManager* theRoomManager;
 public:
-	void changeRoom();
-
 	void MoveToNextRoom(string roomName);
 
-	string PrintDescription();
-	string PlayerOptions();
+	void PrintDescription();
+	void PlayerOptions();
 
 	void TakePlayerOption();
 

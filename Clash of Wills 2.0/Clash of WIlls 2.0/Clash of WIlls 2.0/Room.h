@@ -3,12 +3,15 @@
 #include <iostream>
 #include <string>
 #include <map>
+#include "Inventory.h"
 
 
 using namespace std;
 
 class Room
 {
+private:
+	Inventory* theInventory;
 public:
 	string name;
 	string description;
@@ -16,7 +19,7 @@ public:
 	map<string, string> playerOptions;
 
 	void PrintDescription();
-	void PrintAvailableOptions();
+	void PrintAvailableOptions(Inventory* inventoryItr);
 
 	bool RoomCompleted();
 

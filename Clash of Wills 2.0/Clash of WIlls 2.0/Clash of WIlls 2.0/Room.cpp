@@ -5,14 +5,30 @@ void Room::PrintDescription()
 	std::cout << description << std::endl;
 }
 
-void Room::PrintAvailableOptions()
+void Room::PrintAvailableOptions(Inventory* inventory)
 {
+	auto newIter = inventory->itr;
+
 	for (auto const& option : playerOptions)
 	{
-		std::cout << option.first  // string (key)
-			<< ':'
-			<< option.second // string's value 
-			<< std::endl;
+		newIter = inventory->PlayerItems.begin();
+
+		for (newIter; newIter != nullptr; newIter++)
+		{
+			Item* item = *newIter;
+			if (option.first == " ")
+			{
+				std::cout << option.second // string's value 
+					<< std::endl;
+				break;
+			}
+			else if (option.first == item->name)
+			{
+				std::cout << option.first  // string (key)
+					<< ':' << option.second << std::endl;
+				break;
+			}
+		}
 	}
 
 }
