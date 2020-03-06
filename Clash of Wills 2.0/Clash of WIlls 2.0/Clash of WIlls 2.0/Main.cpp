@@ -21,6 +21,7 @@ int main ()
 
 	//myPlayer.AddToInventory(Item* ItemSword);
 	myPlayer->DrawInventory();
+	roomManager->DrawRoom();
 
 
 	delete myPlayer;

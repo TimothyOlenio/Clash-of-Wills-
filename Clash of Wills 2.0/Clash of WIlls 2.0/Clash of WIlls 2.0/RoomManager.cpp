@@ -14,12 +14,19 @@ void RoomManager::LoopRooms()
     for (itr; itr != Rooms.end(); itr++)
     {
         Room* itm = *itr;
-        //std::cout << itm->name << std::endl;
+        std::cout << itm->name << std::endl;
     }
+}
+
+void RoomManager::DrawRoom()
+{
+    myRoomManager->LoopRooms();
 }
 
 RoomManager::RoomManager()
 {
+    myRoomManager = new RoomManager();
+
 }
 
 RoomManager::~RoomManager()
