@@ -2,6 +2,8 @@
 #define __ROOM_H
 #include <iostream>
 #include <string>
+#include <map>
+
 
 using namespace std;
 
@@ -10,8 +12,11 @@ class Room
 public:
 	string name;
 	string description;
-	string allPlayerOptions[1];
-	string availablePlayerOptions[1];
+
+	map<string, string> playerOptions;
+
+	void PrintDescription();
+	void PrintAvailableOptions();
 
 	bool RoomCompleted();
 

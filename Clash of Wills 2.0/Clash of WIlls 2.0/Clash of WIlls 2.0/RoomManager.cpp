@@ -45,6 +45,12 @@ bool RoomManager::CheckRoomCompletion()
 
 }
 
+Room* RoomManager::CurrentRoom()
+{
+    Room* room = *itr;
+    return room;
+}
+
 RoomManager::RoomManager()
 {
     //myRoomManager = new RoomManager();

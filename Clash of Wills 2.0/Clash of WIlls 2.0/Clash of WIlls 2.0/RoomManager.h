@@ -21,6 +21,8 @@ public:
 
 	bool CheckRoomCompletion();
 
+	Room* CurrentRoom();
+
 
 	RoomManager();
 	~RoomManager();
