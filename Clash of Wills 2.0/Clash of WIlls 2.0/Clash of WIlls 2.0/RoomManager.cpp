@@ -18,9 +18,18 @@ void RoomManager::LoopRooms()
     }
 }
 
-void RoomManager::ProgressRoom(Room *data)
+void RoomManager::ProgressRoom(string roomName)
 {
-    
+    itr = Rooms.begin();
+
+    for (itr; itr != Rooms.end(); itr++)
+    {
+        Room* itm = *itr;
+        if (itm->name == roomName)
+        {
+            return;
+        }
+    }
 }
 
 void RoomManager::DrawRoom()

@@ -9,6 +9,6 @@ class Game
 private: 
 	RoomManager* theRoomManager;
 public:
-	void MoveToNextRoom(Room* data);
+	void MoveToNextRoom(string roomName);
 };
 #endif

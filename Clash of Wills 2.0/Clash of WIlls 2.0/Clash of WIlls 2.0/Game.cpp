@@ -1,6 +1,6 @@
 #include "Game.h"
 
-void Game::MoveToNextRoom(Room* data)
+void Game::MoveToNextRoom(string roomName)
 {
-	theRoomManager->ProgressRoom(data);
+	theRoomManager->ProgressRoom(roomName);
 }

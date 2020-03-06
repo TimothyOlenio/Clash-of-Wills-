@@ -3,6 +3,7 @@
 #include "ItemSword.h"
 #include "RoomBedroomInn.h"
 #include "RoomManager.h"
+#include "Game.h"
 
 using namespace std;
 
@@ -14,6 +15,7 @@ int main ()
 	RoomManager* roomManager = new RoomManager();
 	Room* room = new RoomBedroomInn();
 
+
 	//item->
 	myPlayer->AddToInventory(item);
 
@@ -24,6 +26,12 @@ int main ()
 	roomManager->DrawRoom();
 
 
+	roomManager->DrawRoom();
+
+
+
+
 	delete myPlayer;
+
 	return 0;
 };
