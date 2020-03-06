@@ -10,6 +10,8 @@ class Room
 public:
 	string name;
 
+	bool RoomCompleted();
+
 	Room();
 	~Room();
 

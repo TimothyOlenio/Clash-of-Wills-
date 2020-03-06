@@ -20,12 +20,12 @@ void RoomManager::LoopRooms()
 
 void RoomManager::DrawRoom()
 {
-    myRoomManager->LoopRooms();
+    LoopRooms();
 }
 
 RoomManager::RoomManager()
 {
-    myRoomManager = new RoomManager();
+    //myRoomManager = new RoomManager();
 
 }
 

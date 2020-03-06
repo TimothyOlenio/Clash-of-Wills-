@@ -6,7 +6,6 @@
 class RoomManager
 {
 public:
-	RoomManager* myRoomManager;
 
 
 	LinkedList<Room*> Rooms;
