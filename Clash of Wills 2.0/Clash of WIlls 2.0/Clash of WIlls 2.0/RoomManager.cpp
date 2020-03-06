@@ -18,6 +18,11 @@ void RoomManager::LoopRooms()
     }
 }
 
+void RoomManager::ProgressRoom(Room *data)
+{
+    
+}
+
 void RoomManager::DrawRoom()
 {
     LoopRooms();

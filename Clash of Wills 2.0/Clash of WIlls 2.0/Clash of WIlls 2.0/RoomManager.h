@@ -15,6 +15,8 @@ public:
 	void AddRoom(Room* data);
 	void LoopRooms();
 
+	void ProgressRoom(Room* data);
+
 	void DrawRoom();
 
 

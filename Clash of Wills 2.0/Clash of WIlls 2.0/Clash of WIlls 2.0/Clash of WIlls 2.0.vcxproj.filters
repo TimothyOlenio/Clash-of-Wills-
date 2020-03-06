@@ -79,6 +79,18 @@
     <Filter Include="Source Files\Managers">
       <UniqueIdentifier>{8a15c119-e8eb-4d02-aa22-81d84fbd3e29}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Header Files\Game">
+      <UniqueIdentifier>{ed7592e4-8313-401b-b28d-de4c1e69af7b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Game">
+      <UniqueIdentifier>{4880e4dd-e937-4988-9615-f16c06cb0615}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Rooms\RoomTaproomInn">
+      <UniqueIdentifier>{d145ab12-5cee-4297-ae4e-a88c63cf9778}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Rooms\RoomTaproomInn">
+      <UniqueIdentifier>{7618d76f-7a2c-44e4-9bed-cb0f1dbdb71b}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Player.h">
@@ -147,6 +159,12 @@
     <ClInclude Include="RoomManager.h">
       <Filter>Header Files\Managers</Filter>
     </ClInclude>
+    <ClInclude Include="Game.h">
+      <Filter>Header Files\Game</Filter>
+    </ClInclude>
+    <ClInclude Include="RoomTapRoomInn.h">
+      <Filter>Header Files\Rooms\RoomTaproomInn</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Player.cpp">
@@ -211,6 +229,12 @@
     </ClCompile>
     <ClCompile Include="RoomManager.cpp">
       <Filter>Source Files\Managers</Filter>
+    </ClCompile>
+    <ClCompile Include="Game.cpp">
+      <Filter>Source Files\Game</Filter>
+    </ClCompile>
+    <ClCompile Include="RoomTapRoomInn.cpp">
+      <Filter>Source Files\Rooms\RoomTaproomInn</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
