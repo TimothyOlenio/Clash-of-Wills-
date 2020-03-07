@@ -12,8 +12,16 @@ void Game::PrintDescription()
 	room->PrintDescription();
 }
 
-void Game::PlayerOptions()
+void Game::PlayerOptions(Inventory* inventoryItr)
 {
 	Room* room = theRoomManager->CurrentRoom();
-	room->PrintAvailableOptions(Item* inventoryItr);
+	room->PrintAvailableOptions(inventoryItr);
+}
+
+int Game::TakePlayerOption()
+{
+	int playerChoice;
+	std::cin >> playerChoice;
+
+	return playerChoice;
 }

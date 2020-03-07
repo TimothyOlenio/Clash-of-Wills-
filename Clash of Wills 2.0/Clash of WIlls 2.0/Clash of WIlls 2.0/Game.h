@@ -4,6 +4,7 @@
 #include "RoomManager.h"
 #include "Room.h"
 #include "Items.h"
+#include "Inventory.h"
 
 class Game
 {
@@ -13,9 +14,9 @@ public:
 	void MoveToNextRoom(string roomName);
 
 	void PrintDescription();
-	void PlayerOptions();
+	void PlayerOptions(Inventory* inventoryItr);
 
-	void TakePlayerOption();
+	int TakePlayerOption();
 
 	void CheckForSuccess();
 
