@@ -3,10 +3,13 @@ C:\Users\Wandering Wolf\Documents\GitHub\Clash-of-Wills-\Clash of Wills 2.0\Clas
 C:\Users\Wandering Wolf\Documents\GitHub\Clash-of-Wills-\Clash of Wills 2.0\Clash of WIlls 2.0\Clash of WIlls 2.0\Inventory.h(6): message : see declaration of 'Inventory'
 C:\Users\Wandering Wolf\Documents\GitHub\Clash-of-Wills-\Clash of Wills 2.0\Clash of WIlls 2.0\Clash of WIlls 2.0\Game.cpp(41,32): error C2027: use of undefined type 'Inventory'
 C:\Users\Wandering Wolf\Documents\GitHub\Clash-of-Wills-\Clash of Wills 2.0\Clash of WIlls 2.0\Clash of WIlls 2.0\Inventory.h(6): message : see declaration of 'Inventory'
+C:\Users\Wandering Wolf\Documents\GitHub\Clash-of-Wills-\Clash of Wills 2.0\Clash of WIlls 2.0\Clash of WIlls 2.0\Game.cpp(41,34): error C2059: syntax error: ')'
 C:\Users\Wandering Wolf\Documents\GitHub\Clash-of-Wills-\Clash of Wills 2.0\Clash of WIlls 2.0\Clash of WIlls 2.0\Game.cpp(43,32): error C2059: syntax error: ')'
+  Inventory.cpp
   Main.cpp
 C:\Users\Wandering Wolf\Documents\GitHub\Clash-of-Wills-\Clash of Wills 2.0\Clash of WIlls 2.0\Clash of WIlls 2.0\Inventory.h(7,1): error C2011: 'Inventory': 'class' type redefinition
 C:\Users\Wandering Wolf\Documents\GitHub\Clash-of-Wills-\Clash of Wills 2.0\Clash of WIlls 2.0\Clash of WIlls 2.0\Inventory.h(6): message : see declaration of 'Inventory'
+  Player.cpp
   Room.cpp
   RoomBedroomInn.cpp
   RoomManager.cpp

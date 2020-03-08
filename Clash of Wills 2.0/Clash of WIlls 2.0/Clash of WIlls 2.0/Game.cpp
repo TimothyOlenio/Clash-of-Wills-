@@ -38,7 +38,7 @@ void Game::GameLoop()
 		currentRoom = theRoomManager->CurrentRoom();
 		MoveToNextRoom(currentRoom->name);
 		PrintDescription();
-		PlayerOptions(playerInventory->);
+		PlayerOptions(playerInventory->itr);
 		TakePlayerOption();
 		CheckForSuccess(currentRoom->);
 
