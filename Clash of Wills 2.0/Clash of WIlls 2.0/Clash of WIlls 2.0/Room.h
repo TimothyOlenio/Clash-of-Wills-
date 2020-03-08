@@ -21,7 +21,7 @@ public:
 	string result;
 
 	void PrintDescription();
-	void PrintAvailableOptions(Inventory* inventoryItr);
+	void PrintAvailableOptions(Inventory* inventory);
 	void PrintResult();
 
 	bool RoomCompleted();

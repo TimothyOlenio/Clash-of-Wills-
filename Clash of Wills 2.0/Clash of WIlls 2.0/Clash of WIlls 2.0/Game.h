@@ -11,14 +11,16 @@ class Game
 private: 
 	RoomManager* theRoomManager;
 	Room* currentRoom;
+	Inventory* playerInventory;
 	bool gameRunning;
 
 	int playerChoice;
+
 public:
 	void MoveToNextRoom(string roomName);
 
 	void PrintDescription();
-	void PlayerOptions(Inventory* inventoryItr);
+	void PlayerOptions(Inventory* inventory);
 
 	int TakePlayerOption();
 

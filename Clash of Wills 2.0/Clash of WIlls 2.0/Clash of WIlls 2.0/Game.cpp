@@ -12,10 +12,10 @@ void Game::PrintDescription()
 	room->PrintDescription();
 }
 
-void Game::PlayerOptions(Inventory* inventoryItr)
+void Game::PlayerOptions(Inventory* inventory)
 {
 	Room* room = theRoomManager->CurrentRoom();
-	room->PrintAvailableOptions(inventoryItr);
+	room->PrintAvailableOptions(inventory);
 }
 
 int Game::TakePlayerOption()
@@ -38,7 +38,7 @@ void Game::GameLoop()
 		currentRoom = theRoomManager->CurrentRoom();
 		MoveToNextRoom(currentRoom->name);
 		PrintDescription();
-		PlayerOptions(currentRoom->);
+		PlayerOptions(playerInventory->);
 		TakePlayerOption();
 		CheckForSuccess(currentRoom->);
 
