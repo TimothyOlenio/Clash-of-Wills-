@@ -20,8 +20,28 @@ void Game::PlayerOptions(Inventory* inventoryItr)
 
 int Game::TakePlayerOption()
 {
-	int playerChoice;
 	std::cin >> playerChoice;
 
 	return playerChoice;
+}
+
+void Game::CheckForSuccess(string playerChoice)
+{
+	Room* room = theRoomManager->CurrentRoom();
+	room->PrintResult();
+}
+
+void Game::GameLoop()
+{
+	do
+	{
+		currentRoom = theRoomManager->CurrentRoom();
+		MoveToNextRoom(currentRoom->name);
+		PrintDescription();
+		PlayerOptions(currentRoom->);
+		TakePlayerOption();
+		CheckForSuccess(currentRoom->);
+
+	} while (gameRunning);
+	
 }

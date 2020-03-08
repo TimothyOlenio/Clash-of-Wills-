@@ -10,6 +10,10 @@ class Game
 {
 private: 
 	RoomManager* theRoomManager;
+	Room* currentRoom;
+	bool gameRunning;
+
+	int playerChoice;
 public:
 	void MoveToNextRoom(string roomName);
 
@@ -18,7 +22,7 @@ public:
 
 	int TakePlayerOption();
 
-	void CheckForSuccess();
+	void CheckForSuccess(string playerChoice);
 
 	void GameLoop();
 };

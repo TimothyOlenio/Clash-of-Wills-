@@ -1,8 +1,12 @@
 ﻿  Game.cpp
-C:\Users\Wandering Wolf\Documents\GitHub\Clash-of-Wills-\Clash of Wills 2.0\Clash of WIlls 2.0\Clash of WIlls 2.0\Game.cpp(18,30): error C2660: 'Room::PrintAvailableOptions': function does not take 0 arguments
-C:\Users\Wandering Wolf\Documents\GitHub\Clash-of-Wills-\Clash of Wills 2.0\Clash of WIlls 2.0\Clash of WIlls 2.0\Room.h(22,7): message : see declaration of 'Room::PrintAvailableOptions'
+C:\Users\Wandering Wolf\Documents\GitHub\Clash-of-Wills-\Clash of Wills 2.0\Clash of WIlls 2.0\Clash of WIlls 2.0\Inventory.h(7,1): error C2011: 'Inventory': 'class' type redefinition
+C:\Users\Wandering Wolf\Documents\GitHub\Clash-of-Wills-\Clash of Wills 2.0\Clash of WIlls 2.0\Clash of WIlls 2.0\Inventory.h(6): message : see declaration of 'Inventory'
+C:\Users\Wandering Wolf\Documents\GitHub\Clash-of-Wills-\Clash of Wills 2.0\Clash of WIlls 2.0\Clash of WIlls 2.0\Game.cpp(40,1): error C2059: syntax error: '}'
   Main.cpp
 C:\Users\Wandering Wolf\Documents\GitHub\Clash-of-Wills-\Clash of Wills 2.0\Clash of WIlls 2.0\Clash of WIlls 2.0\Inventory.h(7,1): error C2011: 'Inventory': 'class' type redefinition
 C:\Users\Wandering Wolf\Documents\GitHub\Clash-of-Wills-\Clash of Wills 2.0\Clash of WIlls 2.0\Clash of WIlls 2.0\Inventory.h(6): message : see declaration of 'Inventory'
+  Room.cpp
+  RoomBedroomInn.cpp
+  RoomManager.cpp
   RoomTapRoomInn.cpp
   Generating Code...

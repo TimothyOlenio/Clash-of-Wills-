@@ -18,8 +18,11 @@ public:
 
 	map<string, string> playerOptions;
 
+	string result;
+
 	void PrintDescription();
 	void PrintAvailableOptions(Inventory* inventoryItr);
+	void PrintResult();
 
 	bool RoomCompleted();
 

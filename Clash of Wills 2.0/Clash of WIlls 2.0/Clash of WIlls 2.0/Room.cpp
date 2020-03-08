@@ -33,6 +33,11 @@ void Room::PrintAvailableOptions(Inventory* inventory)
 
 }
 
+void Room::PrintResult()
+{
+	std::cout << result << std::endl;
+}
+
 bool Room::RoomCompleted()
 {
 	return true;
